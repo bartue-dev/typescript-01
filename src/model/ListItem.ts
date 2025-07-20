@@ -32,7 +32,7 @@ export default class ListItem implements Item {
   }
 
   get checked(): boolean {
-    return this._checked; // Fixed: was this.checked (infinite recursion)
+    return this._checked;
   }
 
   set checked(checked: boolean) {
